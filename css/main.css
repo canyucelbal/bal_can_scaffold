@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+	display: none;
+}
+
+#container {
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #fbfbf8;
+}
+
+.topBar {
+	display: flex;
+	background-color: black;
+	width: 1000px;
+	height: 10px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.logo {
+	display: flex;
+	background-color: black;
+	width: 250px;
+	height: 80px;
+	margin-left: 30px;
+}
+
+.mainNav {
+	display: flex;
+	background-color: black;
+	width: 410px;
+	height: 40px;
+	margin-top: 40px;
+	margin-right: 30px;
+}
+
+.slider {
+	display: flex;
+	background-color: black;
+	width: 940px;
+	height: 260px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.seperator {
+	display: flex;
+	border: 2px solid;
+	margin-top: 25px;
+}
+
+.promo {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.promoPiece {
+	flex-direction: column;
+}
+
+.promoImg {
+	display: flex;
+	background-color: black;
+	width: 300px;
+	height: 200px;
+}
+
+.promoText {
+	display: flex;
+	background-color: black;
+	width: 300px;
+	height: 50px;
+	margin-top: 40px;
+}
+.description {
+	display: flex;
+	margin: 0 auto;
+	width: 940px;
+	height: 123px;
+	background-color: black;
+	margin-top: 65px;
+}
+
+.footerNavInfo {
+	display: flex;
+	background-color: black;
+	width: 1000px;
+	height: 77px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
